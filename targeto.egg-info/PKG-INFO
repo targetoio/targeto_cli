@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: targeto
+Version: 0.1.22
+Summary: Your CLI Tool Description
+Home-page: 
+Author: targeto.io
+Author-email: yl@logicode.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: click
+Requires-Dist: pandas>=2.1.4
+Requires-Dist: requests>=2.31.0
+Requires-Dist: oblivious==7.0.0
+Requires-Dist: phonenumbers>=8.13.29
+Requires-Dist: urllib3==1.26.18
+Requires-Dist: pysodium>=0.7.17
+Requires-Dist: boto3>=1.28.72
+Requires-Dist: snowflake-connector-python>=3.0.0
+Requires-Dist: simple-salesforce>=1.12.1
+Requires-Dist: azure-storage-blob>=12.10.0
+Requires-Dist: firebase-admin>=6.0.1
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: appdirs>=1.4.4
+Requires-Dist: libsodium
+
+# MyCLI
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+
+MyCLI is a simple command-line interface (CLI) tool built with Click.
+
+## Features
+
+- **Greeting Command:** Say hello to someone.
+- **Version Command:** Display the version of the CLI tool.
+
+## Installation
+
+```bash
+pip install mycli

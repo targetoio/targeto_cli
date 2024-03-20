@@ -1,0 +1,7 @@
+pandas==2.1.4
+requests==2.31.0
+oblivious==7.0.0
+phonenumbers==8.13.29
+urllib3==1.26.18   
+pysodium==0.7.17
+
